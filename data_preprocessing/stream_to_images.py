@@ -45,6 +45,7 @@ def _get_matching_files(file_names, dir):
 
 
 def _move_to_class_folder(png_dir, labels_loc):
+    """ Looks at the metadata and sorts the images into subfolders based on their target class """
     metadata_df = pd.read_csv(labels_loc)
     metadata_df["png_names"] = metadata_df["patientId"].astype(str) + ".png"
     positive_obs = metadata_df.loc[metadata_df["Target"] == 1, "png_names"]

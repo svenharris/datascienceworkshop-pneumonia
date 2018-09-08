@@ -18,6 +18,6 @@ validation_generator = test_datagen.flow_from_directory(
     directory=TEST_IMAGES,
     target_size=(150, 150),
     batch_size=32,
-    class_mode='binary')
+)
 
 
