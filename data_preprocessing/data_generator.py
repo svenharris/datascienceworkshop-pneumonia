@@ -1,3 +1,7 @@
+import sys
+sys.path.append("/home/claudio/Documents/GitHub/datascienceworkshop-pneumonia")
+
+
 from keras.preprocessing.image import ImageDataGenerator
 from config import TRAIN_IMAGES, TEST_IMAGES
 

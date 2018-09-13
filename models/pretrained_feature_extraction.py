@@ -1,4 +1,8 @@
+import sys
+sys.path.append("/home/claudio/Documents/GitHub/datascienceworkshop-pneumonia")
+
 from keras.applications.vgg16 import VGG16
+from keras.applications.inception_v3 import InceptionV3
 from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
 import numpy as np

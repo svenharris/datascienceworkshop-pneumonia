@@ -10,3 +10,5 @@ TEST_IMAGES = os.path.join(DATA_DIR, "test_images")
 
 LOGGER = logging.getLogger()
 formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
+
+print(ROOT_DIR)

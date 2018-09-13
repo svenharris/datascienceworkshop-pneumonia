@@ -1,9 +1,15 @@
+import sys
+sys.path.append("/home/claudio/Documents/GitHub/datascienceworkshop-pneumonia")
+
+
 from config import TEST_DCM, TRAIN_DCM, TRAIN_IMAGES, TEST_IMAGES, DATA_DIR
 import pydicom
 from PIL import Image
 import pandas as pd
 import os
 import shutil
+
+
 
 
 def _get_metadata(dcm_file):
