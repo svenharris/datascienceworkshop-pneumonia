@@ -118,6 +118,7 @@ def _create_pretrained_feature_df(class_directory, model, partition=1.0,target_s
             i+=1
             yield file
     #
+    #
     divisor = 50
     n_max = len(os.listdir(class_directory))
     """

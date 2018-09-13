@@ -1,3 +1,6 @@
+#create a class which instantiate another class
+#
+
 class Gnappo(object):
     def __init__(self):
         self.myself = "I'm Gnappo"
